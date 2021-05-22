@@ -1,4 +1,5 @@
-import AnimationShorthand from "./AnimationShorthand";
+import ChainingAnimations from "./ChainingAnimations";
+// import AnimationShorthand from "./AnimationShorthand";
 // import AnimationTimingFunctions from "./AnimationTimingFunctions";
 // import AnimationDirection from "./AnimationDirection";
 // import RepeatingAnimations from "./RepeatingAnimations";
@@ -19,7 +20,8 @@ function App() {
       {/* <RepeatingAnimations /> */}
       {/* <AnimationDirection /> */}
       {/* <AnimationTimingFunctions /> */}
-      <AnimationShorthand />
+      {/* <AnimationShorthand /> */}
+      <ChainingAnimations />
     </>
   );
 }
