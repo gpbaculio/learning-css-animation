@@ -1,4 +1,5 @@
-import ChainingAnimations from "./ChainingAnimations";
+import PopupAnimation from "./PopupAnimation";
+// import ChainingAnimations from "./ChainingAnimations";
 // import AnimationShorthand from "./AnimationShorthand";
 // import AnimationTimingFunctions from "./AnimationTimingFunctions";
 // import AnimationDirection from "./AnimationDirection";
@@ -21,7 +22,8 @@ function App() {
       {/* <AnimationDirection /> */}
       {/* <AnimationTimingFunctions /> */}
       {/* <AnimationShorthand /> */}
-      <ChainingAnimations />
+      {/* <ChainingAnimations /> */}
+      <PopupAnimation />
     </>
   );
 }
