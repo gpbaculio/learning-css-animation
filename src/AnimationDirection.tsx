@@ -10,8 +10,8 @@ const AnimationDirection = () => {
       <div className='grass' />
       <div className='road'>
         <div className='lines' />
-        <img className='mario' src={mario} />
-        <img className='luigi' src={luigi} />
+        <img className='mario' src={mario} alt='' />
+        <img className='luigi' src={luigi} alt='' />
       </div>
     </>
   );

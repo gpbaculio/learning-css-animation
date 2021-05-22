@@ -9,7 +9,7 @@ const AnimationFillMode = () => {
       <div className='grass' />
       <div className='road'>
         <div className='lines' />
-        <img className='mario' src={mario} />
+        <img className='mario' src={mario} alt='' />
       </div>
     </>
   );

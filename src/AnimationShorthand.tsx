@@ -8,14 +8,14 @@ const AnimationShorthand = () => {
   return (
     <>
       <div className='sky'>
-        <img className='cloud' src={cloud} />
-        <img className='cloud' src={cloud} />
+        <img className='cloud' src={cloud} alt='' />
+        <img className='cloud' src={cloud} alt='' />
       </div>
       <div className='grass' />
       <div className='road'>
         <div className='lines' />
-        <img className='mario' src={mario} />
-        <img className='luigi' src={luigi} />
+        <img className='mario' src={mario} alt='' />
+        <img className='luigi' src={luigi} alt='' />
       </div>
     </>
   );
