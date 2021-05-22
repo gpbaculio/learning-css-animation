@@ -1,4 +1,5 @@
-import AnimationTimingFunctions from "./AnimationTimingFunctions";
+import AnimationShorthand from "./AnimationShorthand";
+// import AnimationTimingFunctions from "./AnimationTimingFunctions";
 // import AnimationDirection from "./AnimationDirection";
 // import RepeatingAnimations from "./RepeatingAnimations";
 // import AnimationFillMode from "./AnimationFillMode";
@@ -17,7 +18,8 @@ function App() {
       {/* <AnimationFillMode /> */}
       {/* <RepeatingAnimations /> */}
       {/* <AnimationDirection /> */}
-      <AnimationTimingFunctions />
+      {/* <AnimationTimingFunctions /> */}
+      <AnimationShorthand />
     </>
   );
 }
