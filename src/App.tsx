@@ -1,4 +1,5 @@
-import AnimationDirection from "./AnimationDirection";
+import AnimationTimingFunctions from "./AnimationTimingFunctions";
+// import AnimationDirection from "./AnimationDirection";
 // import RepeatingAnimations from "./RepeatingAnimations";
 // import AnimationFillMode from "./AnimationFillMode";
 // import KeyFrameAnimations from "./KeyFrameAnimations";
@@ -15,7 +16,8 @@ function App() {
       {/* <KeyFrameAnimations /> */}
       {/* <AnimationFillMode /> */}
       {/* <RepeatingAnimations /> */}
-      <AnimationDirection />
+      {/* <AnimationDirection /> */}
+      <AnimationTimingFunctions />
     </>
   );
 }
