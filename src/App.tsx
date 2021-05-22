@@ -1,3 +1,4 @@
+import AnimationFillMode from "./AnimationFillMode";
 import KeyFrameAnimations from "./KeyFrameAnimations";
 import TransformAnimations from "./TransformAnimations";
 import TransitionAnimations from "./TransitionAnimations";
@@ -9,7 +10,8 @@ function App() {
     <>
       {/* <TransitionAnimations /> */}
       {/* <TransformAnimations /> */}
-      <KeyFrameAnimations />
+      {/* <KeyFrameAnimations /> */}
+      <AnimationFillMode />
     </>
   );
 }
