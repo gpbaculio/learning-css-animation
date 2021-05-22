@@ -14,13 +14,14 @@ const ShoppingCartAnimation = () => {
       <header>
         <h1>Sports Clothing</h1>
         <div className='basket-icon'>
-          <img src={basket} />
+          <img src={basket} alt='' />
         </div>
         <ul className='products'>
           <li
             onClick={() => {
               setaddClass1(true);
             }}>
+            {/* ideally do this on other images, in real world, each li should be component */}
             <img src={t1} alt='' className={addClass1 ? "zoom" : ""} />
             <img
               src={t1}
