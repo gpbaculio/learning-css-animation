@@ -1,7 +1,12 @@
 import TransformAnimations from "./TransformAnimations";
-
+import TransitionAnimations from "./TransitionAnimations";
 function App() {
-  return <TransformAnimations />;
+  return (
+    <>
+      <TransitionAnimations />
+      {/* <TransformAnimations /> */}
+    </>
+  );
 }
 
 export default App;
