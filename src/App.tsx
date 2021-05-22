@@ -1,3 +1,5 @@
+import RotatingPanelsAnimation from "./RotatingPanelsAnimation";
+// import ShoppingCartAnimation from "./ShoppingCartAnimation";
 // import PopupAnimation from "./PopupAnimation";
 // import ChainingAnimations from "./ChainingAnimations";
 // import AnimationShorthand from "./AnimationShorthand";
@@ -10,7 +12,6 @@
 // import TransitionAnimations from "./TransitionAnimations";
 
 import "./App.css";
-import ShoppingCartAnimation from "./ShoppingCartAnimation";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <AnimationShorthand /> */}
       {/* <ChainingAnimations /> */}
       {/* <PopupAnimation /> */}
-      <ShoppingCartAnimation />
+      {/* <ShoppingCartAnimation /> */}
+      <RotatingPanelsAnimation />
     </>
   );
 }
