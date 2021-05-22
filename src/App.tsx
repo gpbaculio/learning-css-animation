@@ -1,3 +1,4 @@
+import RepeatingAnimations from "./RepeatingAnimations";
 import AnimationFillMode from "./AnimationFillMode";
 import KeyFrameAnimations from "./KeyFrameAnimations";
 import TransformAnimations from "./TransformAnimations";
@@ -11,7 +12,8 @@ function App() {
       {/* <TransitionAnimations /> */}
       {/* <TransformAnimations /> */}
       {/* <KeyFrameAnimations /> */}
-      <AnimationFillMode />
+      {/* <AnimationFillMode /> */}
+      <RepeatingAnimations />
     </>
   );
 }
